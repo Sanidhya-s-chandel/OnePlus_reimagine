@@ -186,3 +186,29 @@ var loader = document.querySelector(".loader")
 setInterval(() => {
     loader.classList.add("hiddenn")
 },4000)
+
+var tl = gsap.timeline({
+    scrollTrigger:{
+        scroller:'body',
+        trigger:'.page2',
+        pin:true,
+        start:'top top',
+        end:"top -650",
+        scrub:3
+    }
+})
+
+tl.to(".P2",{
+    y:"15%",
+    duration:4
+})
+
+tl.to(".P3",{
+    y:"30%",
+    duration:4
+})
+
+tl.to(".P4",{
+    y:"45%",
+    duration:4
+})

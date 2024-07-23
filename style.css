@@ -207,3 +207,61 @@ html, body {
   opacity: 0;
   z-index: -50;
 }
+
+.inpute{
+  font-size: 3vh;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(63, 62, 62, 0.222);
+  border: 1px solid black;
+}
+
+.page2{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(127, 142, 255);
+  position: relative;
+  overflow: hidden;
+}
+
+.P1{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/product/dual-product/nord-ce4-lite/KV_Camryorange1-large.jpg.thumb.webp);
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+}
+
+.P2{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  transform: translateY(120%);
+  background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/in/home/12r/golden/KV_OnePlus12R_3color+Buds3-large.jpg.thumb.webp);
+  background-size: cover;
+  background-position: center;
+  border-top: 6px solid black;
+}
+
+.P3{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  transform: translateY(150%);
+  background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/product/nord4/kv/7.19-IN-AVALON-kv-1440.jpg.thumb.webp);
+  background-size: cover;
+  background-position: center;
+  border-top: 6px solid black;
+}
+
+.P4{
+  height: 100vh;
+  width: 100%;
+  border-top: 6px solid black;
+  position: absolute;
+  transform: translateY(180%);
+  background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/in/summer-sale/july/0717/desktop-prelaunch.jpg.thumb.webp);
+  background-size: cover;
+  background-position: center;
+}
